@@ -1,4 +1,4 @@
-from . import Expense
+from .. import Expense
 
 import collections
 
@@ -13,4 +13,3 @@ for expense in expenses.list:
 
 spending_counter = collections.Counter(spending_categories)
 
-print(spending_counter)
